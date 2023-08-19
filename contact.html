@@ -1,0 +1,128 @@
+<html>
+<head>
+<title>Contact</title>
+<meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Caveat&family=Marko+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Caveat&family=Kalam:wght@300&family=Marko+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Caveat&family=Cherry+Bomb+One&family=Kalam:wght@300&family=Marko+One&display=swap" rel="stylesheet">
+
+<style>
+body
+{
+background-color: rgb(255, 240,204);
+background-attachment: fixed;
+}
+#home_tabs
+{
+color: rgb(255, 240, 204);
+text-align: right;
+list-style-type: none;
+display: flex;
+justify-content: right;
+
+}
+#home_tabs a
+{
+color: rgb(255, 240, 204);
+display: block; 
+border: 1px solid; 
+border-radius: .5em; 
+padding: .5em 1em; 
+margin: .5em;
+background-image: url(choco_cube.png);
+background-size: 100% 100%;
+text-decoration: none;
+}
+
+.contact, h3
+
+{
+background-color: rgb(26, 13, 0);
+color: rgb(255, 240, 204);
+text-align: center;
+letter-spacing: 10px;
+text-transform: uppercase;
+font-family: Amatic SC, sans-serif;
+font-size: 50px;
+}
+h2
+{
+color: rgb(26,13,0);
+font-family: Marko One, sans-serif;
+}
+p
+{
+color: rgb(26,13,0);
+font-family: Kalam, sans-serif;
+}
+.enquiry_form
+{
+font-family: Kalam, sans-serif;
+color: rgb(26,13,0);
+
+}
+</style>
+
+
+<body>
+<header>
+<ul id="home_tabs">
+<li> <a href="home.html">Home</a></li>
+<li><a href="menu.html">Menu</a></li>
+<li><a href="services.html">Services</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+<h1 class="contact">Contact</h1>
+</header>
+<div id="contact_info">
+<h2>Reach us at</h2>
+<p><u>Address:</u> Shop No-111, Shnati Heights, Vashi, Navi Mumbai-400709</p>
+
+<p><u>Phone Number:</u> 0123456789</p>
+<p><u>Email:</u>creamyandchocolaty@gmail.com</p>
+</div>
+
+<section class="enquiry_form">
+<h3>Enquiry Form</h3>
+<ol class="form_tabs">
+<li><label for="firstname">First Name: </label>
+<input type="text" name="firstname" id="firstname"></li>
+
+<li><label for="Last name">Last Name: </label>
+<input type="text" name="lastname" id="lastname"></li>
+
+<li><label for="email">Email:</label>
+<input type="text" name="email" id="email"></li>
+
+<li><label for="phone_number">Phone Number:</label>
+<input type="text" name="phone_number" id="phone_number"></li>
+
+<li><label for="date">Date:</label>
+<input type="date" name="date" id="date"></li>
+
+<li><label for="time">Time:</label>
+<input type="time" name="time" id="time"></li>
+
+
+<li><label for="occasion">Select Occasion:</label>
+<select>
+<option>Birthday</option>
+<option>Wedding</option>
+<option>Corporate/Success</option>
+<option>Party</option>
+</select>
+</li>
+
+
+<li><label for="number_of_people">Number of People:</label>
+<input type="text" name="number_of_people" id="number_of_people"></li>
+
+<li><label for="additional_information">Additional Information:</label>
+<textarea name="additional_information" mrows="5" cols="50"></textarea></li>
+</ol>
+
+<p><input type="submit"></p>
+</section>
+
+</body>
+</html>

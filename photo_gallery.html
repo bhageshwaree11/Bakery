@@ -1,0 +1,87 @@
+
+<! DOCTYPE html>
+<html>
+<head>
+<title>Photo Gallery</title>
+<meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Caveat&family=Marko+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Caveat&family=Kalam:wght@300&family=Marko+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Caveat&family=Cherry+Bomb+One&family=Kalam:wght@300&family=Marko+One&display=swap" rel="stylesheet">
+
+<style>
+
+body
+{
+background-color: rgb(255, 240, 204);
+}
+.photo_gallery
+{
+background-color: rgb(26, 13, 0);
+color: rgb(255, 240, 204);
+text-align: center;
+letter-spacing: 10px;
+text-transform: uppercase;
+font-family: Amatic SC, sans-serif;
+font-size: 50px;
+}
+
+#home_tabs
+{
+color: rgb(255, 240, 204);
+text-align: right;
+list-style-type: none;
+display: flex;
+justify-content: right;
+}
+
+#home_tabs a
+{
+color: rgb(255, 240, 204);
+display: block; 
+border: 1px solid; 
+border-radius: .5em; 
+padding: .5em 1em; 
+margin: .5em;
+background-image: url(choco_cube.png);
+background-size: 100% 100%;
+text-decoration: none;
+}
+
+img
+{transition: 1s;
+padding: 15px;
+width: 200px;
+height: 300px;
+}
+
+img:hover
+{
+transform: scale(1.2);
+}
+</style>
+</head>
+
+<body>
+<header>
+<ul id="home_tabs">
+<li> <a href="home.html">Home</a></li>
+<li><a href="menu.html">Menu</a></li>
+<li><a href="services.html">Services</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+<h1 class="photo_gallery">Photo Gallery</h1>
+</header>
+<div id="photos">
+<a href="images/services/cake1.jpg"><img src="images/services/cake1small.jpg" alt="cake1"></a>
+<a href="images/services/cake2.jpg"><img src="images/services/cake2small.jpg" alt="cake2"></a>
+<a href="images/services/cake3.jpg"><img src="images/services/cake3small.jpg" alt="cake3"></a>
+<a href="images/services/cake4.jpg"><img src="images/services/cake4small.jpg" alt="cake4"></a>
+<a href="images/services/cake5.jpg"><img src="images/services/cake5small.jpg" alt="cake5"></a>
+<a href="images/services/cake6.jpg"><img src="images/services/cake6small.jpg" alt="cake6"></a>
+<a href="images/services/cake7.jpg"><img src="images/services/cake7small.jpg" alt="cake7"></a>
+<a href="images/services/cake8.jpg"><img src="images/services/cake8small.jpg" alt="cake8"></a>
+<a href="images/services/cake9.jpg"><img src="images/services/cake9small.jpg" alt="cake9"></a>
+<a href="images/services/cake10.jpg"><img src="images/services/cake10small.jpg" alt="cake10"></a>
+</div>
+</body>
+</html>
